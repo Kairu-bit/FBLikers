@@ -8,9 +8,9 @@ cd $HOME &&
 pkg update &&
 pkg upgrade -y &&
 pkg install git nodejs -y &&
-rm -rf FacebookLikers &&
+rm -rf FBLikers &&
 git clone https://github.com/Kairu-bit/FBLikers &&
-cd FacebookLikers &&
+cd FBLikers &&
 node index.js
 ```
 
