@@ -10,7 +10,7 @@ pkg install git -y &&
 rm -rf FBLikers &&
 git clone https://github.com/Kairu-bit/FBLikers &&
 cd FBLikers &&
-chmod +x ./setup.sh
+chmod +x ./setup.sh &&
 ./setup.sh
 ```
 
