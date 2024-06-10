@@ -1,15 +1,13 @@
-// WARNING: PLEASE DO NOT MODIFY IF YOU DONT WANT ANY PROBLEMS
+// WARNING: PLEASE DO NOT MODIFY
 export async function getCookie(email, password, port) {
   try {
     const response = await fetch(`http://127.0.0.1:${port}/api/getCookie?email=${email}&password=${password}`);
-    const data = await response.json();
-    if (data.error) {
+    const data = await response.text();
+    if (!data.includes("c_user")) {
       return "Invalid Email/ID/Number or Password";
     }
-    const cookie = data.cookie.replace(/=\s+/g, '=');
-    return cookie;
+    return data;
   } catch (error) {
     return error;
   }
 }
-

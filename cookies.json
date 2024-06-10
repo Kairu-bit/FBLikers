@@ -1,4 +1,9 @@
 {
   "Emails": [],
-  "Cookies": []
+  "Cookies": [],
+  "extra-configs": {
+    "NOTE": "Requires NerdFonts if set to true",
+    "_": "true or false",
+    "icon": false
+  }
 }
