@@ -32,10 +32,10 @@ FBL
 - **Exit:** Exit The Program.
 
 ## Note
-**Ensure that your Facebook post is set to public.**
-**Use Facebook Lite or Chrome to copy the link of the post.**
-**Avoid using your personal account to prevent account suspension.**
-**Do not share your cookies publicly. Keep your authentication data secure.**
+- **Ensure that your Facebook post is set to public.**
+- **Use Facebook Lite or Chrome to copy the link of the post.**
+- **Avoid using your personal account to prevent account suspension.**
+- **Do not share your cookies publicly. Keep your authentication data secure.**
 
 ## Screenshots
 ![FBL1](./assets/s1.png)
